@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function App() {
-  return (
-      <div>TypeScript Location</div>
-  );
+export default class App extends Component{
+    render() {
+        return (
+            <div></div>
+        );
+    }
 }
-
-export default App;
